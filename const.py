@@ -11,7 +11,7 @@ class ConstError(TypeError):
     """Custom exception for constant enforcement."""
     pass
 
-class Const:
+class Constant:
     """A class to represent an immutable constant value.
 
     Args:
@@ -45,4 +45,4 @@ class Const:
 
     def __repr__(self) -> str:
         """Return a string representation of the constant."""
-        return f"Const({self._value!r})"
+        return f"{self._value!r})"

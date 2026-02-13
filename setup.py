@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.4'
-DESCRIPTION = 'Const type for python'
+VERSION = '1.0.5'
+DESCRIPTION = 'Constant type for python for immutable types'
 LONG_DESCRIPTION = 'A package that enables constant variables in python'
 
 setup(
-    name="pyconst-utils",
+    name="python-constant",
     version=VERSION,
     author="kronus-lx (Joel Manning)",
     author_email="joelem2@hotmail.com",
@@ -14,7 +14,7 @@ setup(
     long_description_content_type='text/markdown',  # Specify the content type
     packages=find_packages(),
     install_requires=[],
-    keywords=['python', 'constants', 'const'],
+    keywords=['python', 'constants', 'constant'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Developers",

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-constant"
+version = "1.0.5"
+description = "Constant type for python for immutable types"
+readme = "README.md"
+authors = [
+    { name = "kronus-lx (Joel Manning)", email = "joelem2@hotmail.com" }
+]
+requires-python = ">=3.7"
+keywords = ["python", "constants", "constant"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
