@@ -7,7 +7,7 @@ LONG_DESCRIPTION = 'A package that enables constant variables in python'
 setup(
     name="python-constant",
     version=VERSION,
-    author="kronus-lx (Joel Manning)",
+    author="kronuslx (Joel Manning)",
     author_email="joelem2@hotmail.com",
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
